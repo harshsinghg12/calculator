@@ -1,0 +1,68 @@
+/* Page background */
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+}
+
+/* Calculator heading */
+.calculator_text{
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 12px;
+  color: #4b2e05;
+  font-family: "Comic Sans MS", "Segoe Script", cursive;
+  letter-spacing: 2px;
+}
+
+/* Calculator body */
+#calculator{
+  border-radius: 15px;
+  width: 220px;
+  background: linear-gradient(145deg, #fff3e0, #ffd8a8);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+/* Display */
+#display{
+  margin: 10px;
+  width: 85%;
+  font-size: 26px;
+  border-radius: 8px;
+  border: none;
+  padding: 6px;
+  text-align: right;
+  background-color: #fff;
+}
+
+/* Buttons container */
+.button_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+/* Buttons */
+.button{ 
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(145deg, #ffb347, #ffcc33);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+/* Button hover */
+.button:hover{
+  background: linear-gradient(145deg, #ffcc33, #ffb347);
+}
